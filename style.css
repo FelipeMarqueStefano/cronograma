@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header #title{
+    padding-left: 65px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    width: 320px;
+    display: inline;
+}
+
+body {
+    background-color: #ddd;
+    display: block;
+}
+
+body hr {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    border-color: rgb(206, 206, 206);
+}
+
+caption {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+}
+
+body .table {
+    margin: 30px;
+    margin-left: 65px;
+    height: 400px;
+    width: 500px;
+    border: none;
+    border-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    width: 50% !important; margin: auto;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px rgb(98, 98, 98);
+}
+
+.table tr {
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+thead th {
+    border: none;
+}
+
+tbody td {
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+    border: none;
+}
+
+.table .row_dark {
+    background-color: rgb(131, 131, 255);
+}
+
+.table .row_light {
+    background-color: rgb(165, 165, 250);
+}
+
+#last_row {
+    border: none;
+}
+
+.nav {
+    background-color: rgb(61, 61, 61);
+    margin-left: 340px;
+    margin-right: 340px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgb(98, 98, 98);
+}
+
+.nav #btn1, #btn2 {
+    width: 343px;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px; 
+    outline: 0;
+} 
+
+.nav #btn1:hover, #btn2:hover {
+    background-color: rgb(42, 42, 42);
+    transition: 0.4s;
+}
+
+button:hover {
+    transition: 0.7s;
+    text-shadow: 0px 0px 10px whitesmoke;
+}
+
+.table_none_block {
+    display: block;
+}
+
+.table_block_none {
+    display: none;
+}

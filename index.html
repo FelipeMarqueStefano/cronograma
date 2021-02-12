@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cronograma.png" type="image/x-icon">
+    <script src="script.js"></script>
+
+    <title>Cronograma</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_date">
+            <p id="title">Cronograma</p>
+            <p id="calendar" style="width: 280px; display: inline; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;float: right; padding-top: 30px;margin-right: 60px;"></p>
+        </div>
+    </header>
+
+    <hr noshade>
+
+    <div class="nav">
+        <button id="btn1" type="button" onclick="Cronograma()">Cronograma</button>
+        <button id="btn2" type="button" onclick="Objetivos()">Objetivos</button>
+    </div>
+
+    <div class="table_none_block">
+        <table class="table" border="1" align=center>
+            <caption>Cronograma Semanal de Estudo</caption>
+            <thead>
+                <tr class="row_light">
+                    <th>Dias da Semana</th>
+                    <th>Hora de início</th>
+                    <th>Hora de finalização</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row_dark">
+                    <td>Domingo</td>
+                    <td>17:00</td>
+                    <td>20:00</td>
+                </tr>
+                <tr class="row_light">
+                    <td>Segunda-Feira</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+                <tr class="row_dark">
+                    <td>Terça-Feira</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+                <tr class="row_light">
+                    <td>Quarta-Feira</td>
+                    <td><strong>Em Aberto</strong></td>
+                    <td><strong>Em Aberto</strong></td>
+                </tr>
+                <tr class="row_dark">
+                    <td>Quinta-Feira</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+                <tr class="row_light">
+                    <td>Sexta-Feira</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+                <tr class="row_dark" id="last_row">
+                    <td>Sábado</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table_block_none">
+        <table>
+            <caption>Objetivos Mensais</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
